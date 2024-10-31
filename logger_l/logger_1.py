@@ -41,7 +41,7 @@ console_handler.setLevel(logging.INFO)
 # 创建Formatter
 # %(filename)s    文件名
 # %(funcName)s    函数名
-formatter = logging.Formatter('%(lineno)d - %(asctime)s - %(name)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter('[%(lineno)d - %(asctime)s][%(filename)s][%(funcName)s] - %(levelname)s - %(message)s')
 console_handler.setFormatter(formatter)  # 终端输出
 file_handler.setFormatter(formatter)     # 文件中输出
 
