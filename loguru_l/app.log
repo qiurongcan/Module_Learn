@@ -1,0 +1,189 @@
+2025-10-05 01:23:29.836 | INFO     | __main__:<module>:10 - INFO
+2025-10-05 01:23:29.836 | DEBUG    | __main__:<module>:11 - DEBUG
+2025-10-05 01:23:29.836 | CRITICAL | __main__:<module>:12 - CRITICAL
+2025-10-05 01:23:29.836 | ERROR    | __main__:<module>:13 - ERROR
+2025-10-05 01:23:29.836 | WARNING  | __main__:<module>:14 - WARNNING
+2025-10-05 01:23:29.836 | SUCCESS  | __main__:<module>:15 - SUCCESS
+2025-10-05 01:23:48.676 | INFO     | __main__:<module>:10 - INFO
+2025-10-05 01:23:48.676 | DEBUG    | __main__:<module>:11 - DEBUG
+2025-10-05 01:23:48.676 | CRITICAL | __main__:<module>:12 - CRITICAL
+2025-10-05 01:23:48.676 | ERROR    | __main__:<module>:13 - ERROR
+2025-10-05 01:23:48.676 | WARNING  | __main__:<module>:14 - WARNNING
+2025-10-05 01:23:48.676 | SUCCESS  | __main__:<module>:15 - SUCCESS
+2025-10-05 01:26:23.432 | INFO     | __main__:<module>:12 - INFO
+2025-10-05 01:26:23.433 | DEBUG    | __main__:<module>:13 - DEBUG
+2025-10-05 01:26:23.433 | CRITICAL | __main__:<module>:14 - CRITICAL
+2025-10-05 01:26:23.433 | ERROR    | __main__:<module>:15 - ERROR
+2025-10-05 01:26:23.433 | WARNING  | __main__:<module>:16 - WARNNING
+2025-10-05 01:26:23.433 | SUCCESS  | __main__:<module>:17 - SUCCESS
+2025-10-05 01:26:23.433 | ERROR    | __main__:<module>:27 - An error has been caught in function '<module>', process 'MainProcess' (66662), thread 'MainThread' (8671372800):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 27, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10d9adc60>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 25, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:26:58.935 | INFO     | __main__:<module>:12 - INFO
+2025-10-05 01:26:58.935 | DEBUG    | __main__:<module>:13 - DEBUG
+2025-10-05 01:26:58.935 | CRITICAL | __main__:<module>:14 - CRITICAL
+2025-10-05 01:26:58.935 | ERROR    | __main__:<module>:15 - ERROR
+2025-10-05 01:26:58.935 | WARNING  | __main__:<module>:16 - WARNNING
+2025-10-05 01:26:58.936 | SUCCESS  | __main__:<module>:17 - SUCCESS
+2025-10-05 01:27:07.121 | INFO     | __main__:<module>:12 - INFO
+2025-10-05 01:27:07.122 | DEBUG    | __main__:<module>:13 - DEBUG
+2025-10-05 01:27:07.122 | CRITICAL | __main__:<module>:14 - CRITICAL
+2025-10-05 01:27:07.122 | ERROR    | __main__:<module>:15 - ERROR
+2025-10-05 01:27:07.122 | WARNING  | __main__:<module>:16 - WARNNING
+2025-10-05 01:27:07.122 | SUCCESS  | __main__:<module>:17 - SUCCESS
+2025-10-05 01:27:07.122 | ERROR    | __main__:<module>:27 - An error has been caught in function '<module>', process 'MainProcess' (66926), thread 'MainThread' (8677520896):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 27, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10de91c60>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 25, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:28:18.401 | INFO     | __main__:<module>:12 - INFO
+2025-10-05 01:28:18.401 | DEBUG    | __main__:<module>:13 - DEBUG
+2025-10-05 01:28:18.401 | CRITICAL | __main__:<module>:14 - CRITICAL
+2025-10-05 01:28:18.401 | ERROR    | __main__:<module>:15 - ERROR
+2025-10-05 01:28:18.401 | WARNING  | __main__:<module>:16 - WARNNING
+2025-10-05 01:28:18.401 | SUCCESS  | __main__:<module>:17 - SUCCESS
+2025-10-05 01:28:18.401 | ERROR    | __main__:<module>:28 - An error has been caught in function '<module>', process 'MainProcess' (67124), thread 'MainThread' (8643327488):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 28, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10be99c60>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 25, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:28:54.865 | INFO     | __main__:<module>:12 - INFO
+2025-10-05 01:28:54.865 | DEBUG    | __main__:<module>:13 - DEBUG
+2025-10-05 01:28:54.865 | CRITICAL | __main__:<module>:14 - CRITICAL
+2025-10-05 01:28:54.865 | ERROR    | __main__:<module>:15 - ERROR
+2025-10-05 01:28:54.865 | WARNING  | __main__:<module>:16 - WARNNING
+2025-10-05 01:28:54.865 | SUCCESS  | __main__:<module>:17 - SUCCESS
+2025-10-05 01:28:54.865 | ERROR    | __main__:<module>:30 - 发生异常
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 28, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10d3c9ab0>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 25, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:29:08.113 | INFO     | __main__:<module>:12 - INFO
+2025-10-05 01:29:08.113 | DEBUG    | __main__:<module>:13 - DEBUG
+2025-10-05 01:29:08.113 | CRITICAL | __main__:<module>:14 - CRITICAL
+2025-10-05 01:29:08.113 | ERROR    | __main__:<module>:15 - ERROR
+2025-10-05 01:29:08.113 | WARNING  | __main__:<module>:16 - WARNNING
+2025-10-05 01:29:08.113 | SUCCESS  | __main__:<module>:17 - SUCCESS
+2025-10-05 01:29:08.113 | ERROR    | __main__:<module>:30 - 发生异常
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 28, in <module>
+    cal(0, 0)
+    └ <function cal at 0x1096ddab0>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 25, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:32:44.381 | INFO     | __main__:<module>:18 - INFO
+2025-10-05 01:32:44.381 | DEBUG    | __main__:<module>:19 - DEBUG
+2025-10-05 01:32:44.382 | CRITICAL | __main__:<module>:20 - CRITICAL
+2025-10-05 01:32:44.382 | ERROR    | __main__:<module>:21 - ERROR
+2025-10-05 01:32:44.382 | WARNING  | __main__:<module>:22 - WARNNING
+2025-10-05 01:32:44.382 | SUCCESS  | __main__:<module>:23 - SUCCESS
+2025-10-05 01:32:44.382 | ERROR    | __main__:<module>:34 - An error has been caught in function '<module>', process 'MainProcess' (67593), thread 'MainThread' (8630912512):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 34, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10bafe170>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 31, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:33:18.675 | INFO     | __main__:<module>:18 - INFO
+2025-10-05 01:33:18.676 | DEBUG    | __main__:<module>:19 - DEBUG
+2025-10-05 01:33:18.676 | CRITICAL | __main__:<module>:20 - CRITICAL
+2025-10-05 01:33:18.676 | ERROR    | __main__:<module>:21 - ERROR
+2025-10-05 01:33:18.676 | WARNING  | __main__:<module>:22 - WARNNING
+2025-10-05 01:33:18.676 | SUCCESS  | __main__:<module>:23 - SUCCESS
+2025-10-05 01:33:18.676 | ERROR    | __main__:<module>:34 - An error has been caught in function '<module>', process 'MainProcess' (67749), thread 'MainThread' (8679699968):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 34, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10e7d6170>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 31, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:35:14.127 | INFO     | __main__:<module>:22 - INFO
+2025-10-05 01:35:14.127 | DEBUG    | __main__:<module>:23 - DEBUG
+2025-10-05 01:35:14.127 | CRITICAL | __main__:<module>:24 - CRITICAL
+2025-10-05 01:35:14.127 | ERROR    | __main__:<module>:25 - ERROR
+2025-10-05 01:35:14.128 | WARNING  | __main__:<module>:26 - WARNNING
+2025-10-05 01:35:14.128 | SUCCESS  | __main__:<module>:27 - SUCCESS
+2025-10-05 01:35:14.128 | ERROR    | __main__:<module>:38 - An error has been caught in function '<module>', process 'MainProcess' (67909), thread 'MainThread' (8678356480):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 38, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10e93edd0>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 35, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:37:20.993 | INFO     | __main__:<module>:33 - INFO
+2025-10-05 01:37:20.997 | DEBUG    | __main__:<module>:34 - DEBUG
+2025-10-05 01:37:20.997 | CRITICAL | __main__:<module>:35 - CRITICAL
+2025-10-05 01:37:20.997 | ERROR    | __main__:<module>:36 - ERROR
+2025-10-05 01:37:20.998 | WARNING  | __main__:<module>:37 - WARNNING
+2025-10-05 01:37:20.999 | SUCCESS  | __main__:<module>:38 - SUCCESS
+2025-10-05 01:37:20.999 | ERROR    | __main__:<module>:49 - An error has been caught in function '<module>', process 'MainProcess' (68108), thread 'MainThread' (8612140544):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 49, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10b514550>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 46, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero

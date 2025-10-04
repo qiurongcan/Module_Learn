@@ -1,0 +1,56 @@
+2025-10-05 01:32:44.382 | ERROR    | __main__:<module>:21 - ERROR
+2025-10-05 01:32:44.382 | ERROR    | __main__:<module>:34 - An error has been caught in function '<module>', process 'MainProcess' (67593), thread 'MainThread' (8630912512):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 34, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10bafe170>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 31, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:33:18.676 | ERROR    | __main__:<module>:21 - ERROR
+2025-10-05 01:33:18.676 | ERROR    | __main__:<module>:34 - An error has been caught in function '<module>', process 'MainProcess' (67749), thread 'MainThread' (8679699968):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 34, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10e7d6170>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 31, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:35:14.127 | ERROR    | __main__:<module>:25 - ERROR
+2025-10-05 01:35:14.128 | ERROR    | __main__:<module>:38 - An error has been caught in function '<module>', process 'MainProcess' (67909), thread 'MainThread' (8678356480):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 38, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10e93edd0>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 35, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2025-10-05 01:37:20.997 | ERROR    | __main__:<module>:36 - ERROR
+2025-10-05 01:37:20.999 | ERROR    | __main__:<module>:49 - An error has been caught in function '<module>', process 'MainProcess' (68108), thread 'MainThread' (8612140544):
+Traceback (most recent call last):
+
+> File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 49, in <module>
+    cal(0, 0)
+    └ <function cal at 0x10b514550>
+
+  File "/Users/qiurongcan/Desktop/Module_Learn/loguru_l/learn.py", line 46, in cal
+    return 1 / (x + y)
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
