@@ -4,6 +4,9 @@ from math import pi
 
 class Circle:
 
+    # 设置只允许有哪些属性可以设置
+    __slots__ = ["_r"]
+
     def __init__(self, r = 10):
         self._r = r
 
@@ -39,6 +42,8 @@ if __name__ == "__main__":
     print(c.r)
     c.r = 100
     print(c.r)
+    c.name = "ALice"
+    # print(c.name)
     # c.r = -1
     # print(c.r)
     c.r = 7
